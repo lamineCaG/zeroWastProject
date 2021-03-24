@@ -1,0 +1,11 @@
+ Error creating bean with name 'registrationController' defined in file
+ [D:\workspace\react\target\classes\com\projet\react\registration\RegistrationController.class]:
+ Unsatisfied dependency expressed through constructor parameter 0;
+  nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException:
+   Error creating bean with name 'registrationService' defined in file [D:\workspace\react\target\classes\com\projet\react\registration\RegistrationService.class]:
+    Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException:
+    Error creating bean with name 'userService' defined in file [D:\workspace\react\target\classes\com\projet\react\user\UserService.class]:
+     Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException:
+     Error creating bean with name 'usersRepository' defined in com.projet.react.user.UsersRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration:
+     Invocation of init method failed; nested exception is java.lang.IllegalArgumentException:
+  Validation failed for query for method public abstract int com.projet.react.user.UsersRepository.enableUser(java.lang.String)!
